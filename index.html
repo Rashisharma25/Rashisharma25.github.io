@@ -3,51 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rashi's Portfolio</title>
+    <title>Rashi - Mobile Developer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
+
         h1 {
             color: #333;
+            text-align: center;
         }
+
         p {
             color: #666;
+            text-align: center;
+            margin-top: 10px;
         }
-        img {
-            max-width: 100%;
-            height: auto;
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Rashi's Portfolio</h1>
-    </header>
+    <h1>Welcome to Rashi's Mobile Development Hub!</h1>
+    <p>I specialize in creating mobile applications with stunning graphics.</p>
+    
+    <button onclick="redirectToProjects()">Explore My Projects</button>
 
-    <section>
-        <p>Hi, I'm a mobile developer with a passion for graphics.</p>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/rashi/awesome-app-1">Awesome App 1</a></li>
-            <li><a href="https://github.com/rashi/cool-project-2">Cool Project 2</a></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Graphics</h2>
-        <img src="url_to_graphic_1" alt="Graphic 1">
-        <img src="url_to_graphic_2" alt="Graphic 2">
-    </section>
-
-    <footer>
-        <p>Connect with me on <a href="https://www.linkedin.com/in/rashi/">LinkedIn</a> and <a href="https://twitter.com/rashi_dev">Twitter</a>.</p>
-    </footer>
+    <script>
+        function redirectToProjects() {
+            window.location.href = "https://github.com/rashi?tab=repositories";
+        }
+    </script>
 
 </body>
 </html>
