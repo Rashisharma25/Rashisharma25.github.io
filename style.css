@@ -17,12 +17,12 @@ body {
 }
 
 .profile-img {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     overflow: hidden;
-    border: 6px solid #fff;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .profile-img img {
@@ -32,7 +32,7 @@ body {
 }
 
 .profile-details {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 h1 {
@@ -52,21 +52,20 @@ h1 {
     font-style: italic;
 }
 
-.description {
-    margin-top: 10px;
-    color: #444;
-}
-
 .email {
     margin-top: 5px;
     color: #007bff;
 }
 
-.skills {
-    margin-top: 30px;
+.experience,
+.education,
+.projects {
+    margin-top: 20px;
 }
 
-.skills h2 {
+.experience h2,
+.education h2,
+.projects h2 {
     margin-bottom: 10px;
     color: #333;
     font-size: 20px;
@@ -74,12 +73,16 @@ h1 {
     padding-bottom: 5px;
 }
 
-.skills ul {
+.experience ul,
+.education ul,
+.projects ul {
     list-style-type: none;
     padding: 0;
 }
 
-.skills li {
+.experience li,
+.education li,
+.projects li {
     margin-bottom: 5px;
     color: #555;
     font-size: 16px;
